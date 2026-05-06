@@ -65,4 +65,11 @@ public class AddPlace {
 		this.types = types;
 	}
 	
+	//changes for demo
+	public List<String> getTypess() {             
+		return types;                            
+	}                                            
+	public void setTypess(List<String> types) {   
+		this.types = types;                      
+	}                                            
 }

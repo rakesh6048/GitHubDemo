@@ -1,5 +1,7 @@
 package pojo.addPlace;
 
+import org.apache.commons.collections4.bag.SynchronizedSortedBag;
+
 public class UpdatePlace {
 	
 	private String place_id;
