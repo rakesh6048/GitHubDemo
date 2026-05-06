@@ -35,4 +35,14 @@ public class AddPlaceResponse {
 		this.id = id;
 	}
 	
+	//changes for develop branch
+	
+	public String getIdd() {          
+		return id;                   
+	}                                
+	public void setIds(String id) {   
+		this.id = id;                
+	}                                
+	                                 
+	
 }
