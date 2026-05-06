@@ -83,5 +83,20 @@ public class AddPlace {
 		this.types = types;                      
 	}   
 
+	//changes for develop branch                
+	public List<String> getTypesssssasas() {                 
+		return types;                                    
+	}                                                    
+	public void setTypessssasdf(List<String> types) {        
+		this.types = types;                              
+	}  
+    //changes for develop branch  for us architect              
+	public List<String> getTypesssssaswd() {                 
+		return types;                                    
+	}                                                    
+	public void setTypessssaswe(List<String> types) {        
+		this.types = types;                              
+	}                                                                            
+	                                                        
                                             
 }

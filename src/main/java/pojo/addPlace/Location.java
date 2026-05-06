@@ -17,6 +17,15 @@ public class Location {
 		this.lng = d;
 	}
 	
+	//changes for develop branch
+	
+	public double getLngss() {         
+		return lng;                  
+	}                                
+	public void setLnggg(double d) {   
+		this.lng = d;                
+	}                                
+	                                 
 	
 
 }
