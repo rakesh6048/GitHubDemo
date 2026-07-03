@@ -33,3 +33,18 @@ Scenario: Verify to craete an order in ecommerce site
    When deleted the "Order"
    When user call "DeleteOrderAPI" with "DELETE" http request
    Then the API call got success with status code 200
+   
+   Scenario: Verify to craete an order in ecommerce site                              
+                                                                                   
+   Given Ecommerce create order Payload with request                               
+   When user call "CreateOrderAPI" with "Post" http request                        
+   Then the API call got success with status code 201                              
+   And  verify "orderId" created from response body using "CreateOrderAPI"         
+   And  verify "orderview" created from response body using "GetOrderAPI"          
+   Then the API call got success with status code 200                              
+   When deleted the "Product"                                                      
+   When user call "DeleteProductAPI" with "DELETE" http request                    
+   Then the API call got success with status code 200                              
+   When deleted the "Order"                                                        
+   When user call "DeleteOrderAPI" with "DELETE" http request                      
+   Then the API call got success with status code 200                              

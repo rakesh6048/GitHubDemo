@@ -25,4 +25,13 @@ Scenario: Verify delete place place functionality is working
     Then the API call got success with status code 200
     And "status" in response body is "OK"
     
-    
+                                                                           
+@DeletePlace @Regeression                                                  
+Scenario: Verify delete place place functionality is working               
+                                                                           
+    Given delete place payload                                             
+    When user call "DeletePlaceAPI" with "DELETE" http request             
+    Then the API call got success with status code 200                     
+    And "status" in response body is "OK"                                  
+                                                                           
+                                                                           
